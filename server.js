@@ -13,7 +13,7 @@ const io = new Server (server, {
 const User = require('./models/User');
 const userRoutes = require('./routes/userRoutes')
 const productRoutes = require('./routes/productRouter');
-const imageRoutes = require ('./routes/imageRouter')
+const imageRoutes = require ('./routes/imageRoutes')
 
 app.use(cors());
 app.use(express.urlencoded({extended: true}));
